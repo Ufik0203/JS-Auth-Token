@@ -1,0 +1,26 @@
+{
+  "name": "config",
+  "version": "1.0.0",
+  "description": "",
+  "main": "Database.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Ufik0203/JS-Auth-Token.git"
+  },
+  "keywords": [
+    "config"
+  ],
+  "author": "ufik",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Ufik0203/JS-Auth-Token/issues"
+  },
+  "homepage": "https://github.com/Ufik0203/JS-Auth-Token#readme",
+  "dependencies": {
+    "mysql2": "^3.9.1",
+    "sequelize": "^6.37.1"
+  }
+}

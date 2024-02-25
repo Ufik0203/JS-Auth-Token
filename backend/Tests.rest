@@ -1,12 +1,13 @@
 GET http://localhost:8000/users
+Authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VySUQiOjEsIm5hbWUiOiJ1ZmlrIiwiZW1haWwiOiJ0ZXN0MUBnbWFpbC5jb20iLCJpYXQiOjE3MDg4NDg4MzUsImV4cCI6MTcwODg0ODg2NX0.ypzQB-vyIeV4kdVqM0_G03-nI1DdqMRnjLIF7ZUq90I
 
 ###
 POST  http://localhost:8000/users
 Content-Type: application/json
 
 {
-    "name" : "ufik2",
-    "email" : "test2@gmail.com",
+    "name" : "ufik",
+    "email" : "test1@gmail.com",
     "password" : "12345",
     "confirmPassword" : "12345"
 }
